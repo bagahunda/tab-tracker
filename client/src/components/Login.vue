@@ -21,6 +21,7 @@
     </div>
     <div class="register__login">
       <p>Doesn't have an account? <router-link to="register">Register</router-link>.</p>
+      <p>I don't want to login. <router-link to='songs'>Just show me some songs</router-link></p>
     </div>
   </div>
 </template>

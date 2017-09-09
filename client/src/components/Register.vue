@@ -15,12 +15,14 @@
         name="password"
         placeholder="Password"
         v-model="password"
+        autocomplete="new-password"
       />
       <div class="error" v-html="error" />
       <button @click="register">Register</button>
     </div>
     <div class="register__login">
       <p>Aleady have an account? <router-link to="login">Log in</router-link>.</p>
+      <p>I don't want to register. <router-link to='songs'>Just show me some songs</router-link></p>
     </div>
   </div>
 </template>
