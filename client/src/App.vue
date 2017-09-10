@@ -67,6 +67,7 @@ export default {
     border-radius: .25rem;
     transition: all .15s ease-in-out;
     cursor: pointer;
+    text-decoration: none;
   }
 
   .btn--primary {
@@ -109,6 +110,11 @@ export default {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+  }
+
+  .wrapper--song {
+    justify-content: flex-start;
+    padding-top: 122px;
   }
 
   .register {

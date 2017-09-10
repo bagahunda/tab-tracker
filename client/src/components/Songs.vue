@@ -12,6 +12,7 @@
             <th>Title</th>
             <th>Artist</th>
             <th>Album</th>
+            <th></th>
           </tr>
         </thead>
         <tbody>
@@ -19,6 +20,7 @@
             <td>{{song.title}}</td>
             <td>{{song.artist}}</td>
             <td>{{song.album}}</td>
+            <td><img :src="song.albumImage" alt=""></td>
           </tr>
         </tbody>
       </table>
@@ -71,6 +73,10 @@ export default {
     border-top: 1px solid #e8e8e8;
     border-bottom: 1px solid #e8e8e8;
     cursor: pointer;
+  }
+
+  .song img {
+    max-width: 100px;
   }
 
 </style>
